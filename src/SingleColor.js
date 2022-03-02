@@ -16,7 +16,7 @@ const SingleColor = ({ rgb, weight, index }) => {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setAlert(false);
-    }, 2000);
+    }, 2000); //sets alert to false after 2 seconds
     return () => clearTimeout(timeout);
   }, [alert]);
 
